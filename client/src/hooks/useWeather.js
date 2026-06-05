@@ -7,20 +7,26 @@ export function useWeather() {
   const [error, setError] = useState("");
 
   async function searchWeather(city, country) {
-    try {
-      setLoading(true);
-      setError("");
+  console.log("useWeather -> searchWeather");
 
-      const data = await getWeather(city, country);
+  try {
+    setLoading(true);
+    setError("");
 
-      setWeather(data);
-    } catch (err) {
-      setError("City not found");
-      setWeather(null);
-    } finally {
-      setLoading(false);
-    }
+    const data = await getWeather(city, country);
+
+    console.log("API response:", data);
+
+    setWeather(data);
+  } catch (err) {
+    console.error("API error:", err);
+
+    setError("City not found");
+    setWeather(null);
+  } finally {
+    setLoading(false);
   }
+}
 
   return {
     weather,

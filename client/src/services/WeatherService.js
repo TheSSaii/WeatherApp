@@ -4,6 +4,12 @@ const API_URL =
   "http://localhost:3000/api/weather";
 
 export async function getWeather(city, country) {
+  console.log(
+    "WeatherService -> getWeather",
+    city,
+    country
+  );
+
   try {
     const response = await axios.get(API_URL, {
       params: {

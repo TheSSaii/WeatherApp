@@ -5,14 +5,16 @@ function SearchBar({ onSearch }) {
   const [country, setCountry] = useState("");
 
   function handleSubmit(e) {
-    e.preventDefault();
+  e.preventDefault();
 
-    if (!city.trim() || !country.trim()) {
-      return;
-    }
+  console.log("Submit intercepted");
 
-    onSearch(city, country);
+  if (!city.trim() || !country.trim()) {
+    return;
   }
+
+  onSearch(city, country);
+}
 
   return (
     <form onSubmit={handleSubmit}>
