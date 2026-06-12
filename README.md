@@ -59,8 +59,7 @@ Tested on:
 
 ### Home Screen
 
-![Home Screen](screenchots/home.png)
-
+![Home Screen](docs/screenchots/home.png)
 ### Weather Results
 
 ![Weather Results](https://raw.githubusercontent.com/TheSSaii/WeatherApp/main/docs/screenchots/weather-results.png)
