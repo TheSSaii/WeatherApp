@@ -59,7 +59,7 @@ Tested on:
 
 ### Home Screen
 
-![Home Screen](screenshots/home.png)
+![Home Screen](screenchots/home.png)
 
 ### Weather Results
 
