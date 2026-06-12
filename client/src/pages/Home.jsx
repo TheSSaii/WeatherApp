@@ -1,7 +1,10 @@
 import SearchBar from "../components/SearchBar";
 import WeatherCard from "../components/WeatherCard";
+import MetricsGrid from "../components/MetricsGrid";
 import ErrorMessage from "../components/ErrorMessage";
 import LoadingSpinner from "../components/LoadingSpinner";
+import OperationalAssessment from "../components/OperationalAssessment";
+import IntelligencePanel from "../components/IntelligencePanel";
 
 import { useWeather } from "../hooks/useWeather";
 
@@ -14,20 +17,40 @@ function Home() {
   } = useWeather();
 
   return (
-    <div>
-      <h1>Weather App</h1>
+    <div className="min-h-screen bg-slate-950 text-white p-6">
+      <div className="max-w-4xl mx-auto">
 
-      <SearchBar onSearch={searchWeather} />
+        <header className="text-center mb-8">
+          <h1 className="text-5xl font-bold">
+            Weather Intelligence
+          </h1>
 
-      {loading && <LoadingSpinner />}
+          <p className="text-slate-400 mt-2">
+            Operational Weather Assessment
+          </p>
+        </header>
 
-      {error && (
-        <ErrorMessage message={error} />
-      )}
+        <div className="mb-8">
+          <SearchBar onSearch={searchWeather} />
+        </div>
 
-      {weather && (
-        <WeatherCard weather={weather} />
-      )}
+        {loading && <LoadingSpinner />}
+
+        {error && (
+          <ErrorMessage message={error} />
+        )}
+
+        {weather && (
+          <div className="space-y-6">
+            <WeatherCard weather={weather} />
+
+            <MetricsGrid weather={weather} />
+            <IntelligencePanel weather={weather} />
+          </div>
+        )}
+
+        
+      </div>
     </div>
   );
 }

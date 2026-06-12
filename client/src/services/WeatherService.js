@@ -1,22 +1,22 @@
 import axios from "axios";
 
 const API_URL =
-  "http://localhost:3000/api/weather";
+  import.meta.env.VITE_API_URL;
 
-export async function getWeather(city, country) {
-  console.log(
-    "WeatherService -> getWeather",
-    city,
-    country
-  );
-
+export async function getWeather(
+  city,
+  country
+) {
   try {
-    const response = await axios.get(API_URL, {
-      params: {
-        city,
-        country,
-      },
-    });
+    const response = await axios.get(
+      API_URL,
+      {
+        params: {
+          city,
+          country,
+        },
+      }
+    );
 
     return response.data;
   } catch (error) {

@@ -2,31 +2,39 @@ import { useState } from "react";
 import { getWeather } from "../services/weatherService";
 
 export function useWeather() {
-  const [weather, setWeather] = useState(null);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
+  const [weather, setWeather] =
+    useState(null);
 
-  async function searchWeather(city, country) {
-  console.log("useWeather -> searchWeather");
+  const [loading, setLoading] =
+    useState(false);
 
-  try {
-    setLoading(true);
-    setError("");
+  const [error, setError] =
+    useState("");
 
-    const data = await getWeather(city, country);
+  async function searchWeather(
+    city,
+    country
+  ) {
+    try {
+      setLoading(true);
+      setError("");
 
-    console.log("API response:", data);
+      const data =
+        await getWeather(
+          city,
+          country
+        );
 
-    setWeather(data);
-  } catch (err) {
-    console.error("API error:", err);
+      setWeather(data);
+    } catch (err) {
+      console.error(err);
 
-    setError("City not found");
-    setWeather(null);
-  } finally {
-    setLoading(false);
+      setError("City not found");
+      setWeather(null);
+    } finally {
+      setLoading(false);
+    }
   }
-}
 
   return {
     weather,
