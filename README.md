@@ -59,7 +59,7 @@ Tested on:
 
 ### Home Screen
 
-![Home Screen](/WeatherApp/main/docs/screenshots/home.png)
+![Home Screen](main/docs/screenshots/home.png)
 
 ### Weather Results
 
