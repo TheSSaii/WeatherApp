@@ -62,11 +62,11 @@ Tested on:
 ![Home Screen](docs/screenchots/home.png)
 ### Weather Results
 
-![Weather Results](https://raw.githubusercontent.com/TheSSaii/WeatherApp/main/docs/screenchots/weather-results.png)
+![Weather Results](docs/screenchots/weather-results.png)
 
 ### Operational Assessment
 
-![Operational Assessment](https://raw.githubusercontent.com/TheSSaii/WeatherApp/main/docs/screenchots/assessment.png)
+![Operational Assessment](screenchots/assessment.png)
 
 ---
 
