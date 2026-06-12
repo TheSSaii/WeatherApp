@@ -1,6 +1,7 @@
 # Weather Intelligence
+## Live Demo
 
-##Live demo: https://weather-intelligence-phi.vercel.app
+[Weather Intelligence](https://weather-intelligence-phi.vercel.app)
 
 Weather Intelligence is a full-stack weather analysis platform built with React, Vite, Node.js and OpenWeather.
 
@@ -58,15 +59,15 @@ Tested on:
 
 ### Home Screen
 
-![Home Screen](docs/screenshots/home.png)
+![Home Screen](https://raw.githubusercontent.com/TheSSaii/WeatherApp/main/docs/screenshots/home.png)
 
 ### Weather Results
 
-![Weather Results](docs/screenshots/weather-results.png)
+![Weather Results](https://raw.githubusercontent.com/TheSSaii/WeatherApp/main/docs/screenshots/weather-results.png)
 
 ### Operational Assessment
 
-![Operational Assessment](docs/screenshots/assessment.png)
+![Operational Assessment](https://raw.githubusercontent.com/TheSSaii/WeatherApp/main/docs/screenshots/assessment.png)
 
 ---
 
