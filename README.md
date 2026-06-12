@@ -63,11 +63,11 @@ Tested on:
 
 ### Weather Results
 
-![Weather Results](https://raw.githubusercontent.com/TheSSaii/WeatherApp/main/docs/screenshots/weather-results.png)
+![Weather Results](https://raw.githubusercontent.com/TheSSaii/WeatherApp/main/docs/screenchots/weather-results.png)
 
 ### Operational Assessment
 
-![Operational Assessment](https://raw.githubusercontent.com/TheSSaii/WeatherApp/main/docs/screenshots/assessment.png)
+![Operational Assessment](https://raw.githubusercontent.com/TheSSaii/WeatherApp/main/docs/screenchots/assessment.png)
 
 ---
 
