@@ -66,7 +66,7 @@ Tested on:
 
 ### Operational Assessment
 
-![Operational Assessment](screenchots/assessment.png)
+![Operational Assessment](docs/screenchots/assessment.png)
 
 ---
 
