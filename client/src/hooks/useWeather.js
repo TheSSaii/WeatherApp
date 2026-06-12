@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { getWeather } from "../services/weatherService";
+import { getWeather } from "../services/WeatherService";
 
 export function useWeather() {
   const [weather, setWeather] =
