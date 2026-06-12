@@ -59,7 +59,7 @@ Tested on:
 
 ### Home Screen
 
-![Home Screen](https://raw.githubusercontent.com/TheSSaii/WeatherApp/main/docs/screenshots/home.png)
+![Home Screen](/WeatherApp/main/docs/screenshots/home.png)
 
 ### Weather Results
 
