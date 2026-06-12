@@ -1,5 +1,7 @@
 # Weather Intelligence
 
+##Live demo: https://weather-intelligence-phi.vercel.app
+
 Weather Intelligence is a full-stack weather analysis platform built with React, Vite, Node.js and OpenWeather.
 
 Unlike traditional weather applications that focus only on displaying raw meteorological data, this project introduces an operational intelligence layer that transforms weather conditions into actionable environmental assessments.
