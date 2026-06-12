@@ -52,6 +52,7 @@ Tested on:
 
 - Desktop browsers
 - iPhone Safari
+- android chrome and brave
 
 ---
 
